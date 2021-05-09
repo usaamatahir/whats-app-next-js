@@ -16,8 +16,11 @@ export default SearchComponent;
 
 const Search = styled.div`
   height: 60px;
-  background-color: #fbfbfb;
+  background-color: #f5f5f5;
   padding: 7px 20px;
+  position: sticky;
+  top: 80px;
+  z-index: 1;
 `;
 
 const SearchBox = styled.div`
